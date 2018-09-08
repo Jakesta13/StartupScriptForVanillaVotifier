@@ -24,13 +24,13 @@ niceness=10
 
 #Username to send testvote as.
 #Doesn't have to be a real account.
-testname=jakesta13
+testname=USERNAME
 
 #DIR where the JAR is located.
 #Please, please, please use quotations.
 #Note: You don't need to have a final forward slash
 # as the script adds one as a suffix.
-basedir="/home/pi/Votifyer"
+basedir="/dir/to/jar"
 #### #### ####
 
 echo starting new screen session in the background named ${name}
