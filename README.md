@@ -10,4 +10,5 @@ It was put together to allow the jar to run on smaller and less powerful systems
 ## Requirements
 
 * [VanillaVotifier](https://github.com/xMamo/VanillaVotifier)
+* screen
 * Java (VanillaVotifier requirement)
