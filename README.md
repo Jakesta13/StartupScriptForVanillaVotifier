@@ -8,6 +8,7 @@ It was put together to allow the jar to run on smaller and less powerful systems
 * Make the script executeable.
 * Start script with ./start.sh
 * Eat Pizza
+
 ## Requirements
 
 * [VanillaVotifier](https://github.com/xMamo/VanillaVotifier)
