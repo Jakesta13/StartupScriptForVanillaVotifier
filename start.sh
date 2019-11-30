@@ -38,8 +38,8 @@ screen -dmS ${name} java -jar ${basedir}/VanillaVotifier.jar -Xmx${max} -Xms${in
 #We need to sleep for a minimum of 10 seconds,
 # this is to allow the program to start before limits as pre-limits causes errors.
 sleep 10
-cpulimit -b -l ${CPU} -p `pgrep java`
-renice -n ${niceness} `pgrep java`
+cpulimit -b -l ${CPU} -p `pgrep -u "$(whoami)" java`
+renice -n ${niceness} `pgrep -u "$(whoami)" java`
 echo sending testvote command for setup.
 screen -S ${name} -p 0 -X stuff "testvote ${testname}^M"
 exit
